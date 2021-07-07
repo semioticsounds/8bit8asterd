@@ -1,5 +1,8 @@
 /*
  * The bulk of this firmware comes from: https://dogemicrosystems.ca/wiki/Dual_AY-3-8910_MIDI_module
+ *
+ * V2.2 Firmware for the 8-Bit 8asterd by Semiotic Sounds
+ *
  */
 
 void(* resetFunc) (void) = 0;//declare reset function at address 0
