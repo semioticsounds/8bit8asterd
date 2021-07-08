@@ -845,7 +845,7 @@ static const struct FXParams perc_params[PERC_MAX-PERC_MIN+1] = {
   // Params are: noisefreq, tonefreq, envdecay, freqdecay, timer, shape
   
   { 9, 900, 800, 40, 50, 9 },   // 35 Acoustic bass drum
-  { 16, 2700, 1500, 16, 15, 9 },  // 36 (C) 808 Bass Drum 1
+  { 16, 2000, 1500, 16, 15, 9 },  // 36 (C) 808 Bass Drum 1
   { 5, 0, 300, 0, 80, 9 },      // 37 Side Stick
   { 6, 0, 1200, 0, 30, 9  },    // 38 Acoustic snare
   
@@ -861,9 +861,8 @@ static const struct FXParams perc_params[PERC_MAX-PERC_MIN+1] = {
   
   { 16, 600, 1400, 20, 25, 9 }, // 47 (B) Low-Mid Tom
   { 16, 450, 1500, 15, 22, 9 }, // 48 Hi-Mid Tom
-  { 16, 320, 150, 0, 8, 9 },     // 49 Effect #1
+  { 16, 320, 1500, 20, 22, 9 },     // 49 Effect #1
   { 16, 300, 1500, 10, 22, 9 }, // 50 High Tom
-};
   
   
 
