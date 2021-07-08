@@ -714,7 +714,7 @@ public:
   }
   Serial.print("CH: ");
   Serial.println(m_chan);
-    psg.setToneAndNoise(m_chan, fxp.tonefreq, fxp.noisefreq, 31);
+    psg.setToneAndNoise(m_chan, fxp.tonefreq, fxp.noisefreq, 30);
   }
   
 
@@ -787,7 +787,7 @@ public:
         if (m_fxp.freqdecay > 0) { 
           m_fxp.tonefreq += m_fxp.freqdecay;
           //psg.setEnvelope(m_fxp.envdecay, 9); 
-          psg.setToneAndNoise(m_chan, m_fxp.tonefreq, m_fxp.noisefreq, 31);
+          psg.setToneAndNoise(m_chan, m_fxp.tonefreq, m_fxp.noisefreq, 30);
         }
         
         m_ampl -= m_decay;
