@@ -5,7 +5,7 @@
  * 
  * Added:
  * Drum Polyphony
- * Slow attack evelopes on channels 3 and 4
+ * Slow attack envelopes on channels 3 and 4
  * Altered drum sounds (808 bass and clave)
  * Arduino Reset function on MIDI KillAll message
  * Better voice distribution methodology
