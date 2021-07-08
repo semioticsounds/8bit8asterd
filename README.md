@@ -1,5 +1,6 @@
 # 8bit8asterd
 Firmware for the 8-Bit 8asterd (8B8) by Semiotic Sounds
+
 email: greg@semioticsounds.com
 
 V2.2 -- Added:
