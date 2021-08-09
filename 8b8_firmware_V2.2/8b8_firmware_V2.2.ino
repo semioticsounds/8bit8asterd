@@ -863,7 +863,7 @@ static const struct FXParams perc_params[PERC_MAX-PERC_MIN+1] = {
   { 16, 450, 1500, 15, 22, 9 }, // 48 Hi-Mid Tom
   { 16, 320, 1500, 20, 22, 9 },     // 49 Effect #1
   { 16, 300, 1500, 10, 22, 9 }, // 50 High Tom
-  
+};
   
 
 static const int REQ_MAP_SIZE = (N_NOTES+7) / 8;
